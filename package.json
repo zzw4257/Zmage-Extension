@@ -1,0 +1,12 @@
+{
+  "name": "zmage-extension",
+  "version": "0.1.0",
+  "description": "Minimal plugin template for Zmage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log('no tests')\""
+  },
+  "keywords": ["zmage","plugin","extension"],
+  "author": "",
+  "license": "MIT"
+}
