@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zmage Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main>
+    <h1 id="title"></h1>
+    <form id="settingsForm">
+      <label class="field">
+        <span id="baseUrlText"></span>
+        <input type="url" id="baseUrl" required placeholder="http://localhost:3000" />
+      </label>
+      <label class="field">
+        <span id="languageText"></span>
+        <select id="language">
+          <option value="zh"></option>
+          <option value="en"></option>
+        </select>
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" id="includeMemo" />
+        <span id="memoText"></span>
+      </label>
+      <div class="buttons">
+        <button type="submit" class="primary" id="saveButton"></button>
+        <button type="button" id="testButton" class="secondary"></button>
+      </div>
+    </form>
+    <p id="status" class="status"></p>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

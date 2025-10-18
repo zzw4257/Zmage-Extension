@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zmage Collector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1 id="popupTitle">Zmage</h1>
+      <p id="baseUrlLabel"></p>
+    </div>
+    <button id="openOptions" class="ghost"></button>
+  </header>
+
+  <section class="status">
+    <div id="authStatus" class="status-indicator"></div>
+    <button id="loginButton" class="primary"></button>
+  </section>
+
+  <section class="actions">
+    <div class="action-buttons">
+      <button id="scanButton" class="secondary"></button>
+      <button id="uploadSelected" class="primary"></button>
+    </div>
+    <div class="shortcuts">
+      <a id="openImages" href="#" target="_blank"></a>
+      <a id="openVideos" href="#" target="_blank"></a>
+    </div>
+  </section>
+
+  <section class="resources">
+    <h2 id="resourcesHeading"></h2>
+    <div id="resourceList" class="resource-list"></div>
+    <p id="noResources" class="empty"></p>
+  </section>
+
+  <section class="tasks">
+    <h2 id="tasksHeading"></h2>
+    <ul id="taskList" class="task-list"></ul>
+  </section>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
