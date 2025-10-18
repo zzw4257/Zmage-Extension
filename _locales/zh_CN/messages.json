@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Zmage 采集器",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "将图片和视频采集到您的 Zmage 图库并触发后续工作流。",
+    "description": "扩展描述"
+  }
+}

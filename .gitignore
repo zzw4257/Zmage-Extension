@@ -4,3 +4,32 @@ dist/
 coverage/
 npm-debug.log*
 .env
+
+# Development files
+*.crx
+*.pem
+*.zip
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+build/
+.cache/
+
+# Logs
+*.log
+logs/

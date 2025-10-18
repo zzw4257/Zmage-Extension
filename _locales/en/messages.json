@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Zmage Collector",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Capture images and videos into your Zmage library and trigger follow-up workflows.",
+    "description": "Extension description"
+  }
+}
